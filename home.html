@@ -1,0 +1,306 @@
+<html lang="en">
+
+    <script src="https://kit.fontawesome.com/dbed23fb8c.js" crossorigin="anonymous"></script>
+<head>
+    <title>Home</title>
+    <style>
+        body{
+            background-color:black;
+        }
+        /* Universal Selector */
+        *{
+            margin: auto;
+        }
+        #full-body
+        {
+             background-color: black; 
+        }
+  
+        .spn{
+            font-size: 25px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            margin-top: 10px; margin-left:20px;;
+           float: left;
+        }
+        #fb{
+                width: 40px; height: 40px; 
+                /* background-color: greenyellow;  */
+                float: right;
+                margin-top: 10px; margin-right: 20px;
+                background-image: url(pics/fb.png);
+                background-size: contain;
+                
+        }
+        #gm{
+                width: 40px; height: 40px; 
+                /* background-color: greenyellow;  */
+                float: right;
+                margin-top: 10px; margin-right: 20px;
+                background-image: url(pics/email.jpg);
+                background-size: contain;
+                border-radius: 50%;
+                transition: ease all 1s;
+                cursor: pointer;
+                
+        }
+        #gm:hover{
+            transform: rotate(360deg);
+            transition: ease all 1s;
+        }
+   
+       
+        
+      .products{
+          width: inherit;
+          height: 300px; background-color:black;
+          float: left;
+
+      }  
+      .card{
+          width: 170px; height: 280px; border: 1px black solid;;
+          float: left;
+          margin-top: 10px;
+          background-color: #fff;
+          border-radius: 10px;
+          margin-left: 20px;
+          /* padding: 10px; */
+      }
+    
+     .child{
+           margin-top: 80px; 
+
+     }
+      
+      
+      body {
+            height: 125vh; 
+            padding: 30px;
+            background-size: cover;
+            font-family: sans-serif;
+        }
+
+        header {
+            background-color: rgb(10, 10, 112);
+            left: 0;
+            right: 0;
+            top: 5px;
+            height: 30px;
+            display: flex;
+            width: 95vw;
+            margin-left: -1%;
+            align-items: center;
+            box-shadow: 0 0 25px 0 black;
+        }
+
+        header * {
+            display: inline;
+        }
+
+        header li {
+            margin: 20px;
+        }
+
+        header li a {
+            color: white;
+            text-decoration: none;
+        }
+        footer {
+          text-align: center;
+          margin-top: 700px;
+          margin-left: -1%;
+          width: 95vw;
+          padding: 3px;
+          background-color: rgb(10,10,112);
+          color: white;
+}
+
+
+    </style>
+</head>
+<!-- <script>
+    window.alert("Welcome to Phonix");
+    </script> -->
+    
+<body id="topp">
+    <header>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#"> Home </a>
+                </li>
+                <li>
+                    <a href="about us.html"> About Us </a>
+                </li>
+                <li>
+                    <a href="demo.html"> Demo </a>
+                </li>
+                <li> <a href="feedback.html"> Feedback </a>
+                </li>
+                <li>
+                    <a href="signup.html"> Signup </a>
+                </li>
+                <li>
+                    <a href="contact.html">Contact Us</a>
+                </li>
+
+                <li>
+                    <input type="search" style="margin-right: 0px; padding-right: 0px;">
+                    <a href="#"><img src="images\search.png" height="20px" width="30px" style="margin-bottom:-5px;"></a>
+                </li>
+                
+            </ul>
+        </nav>
+    </header>
+
+
+    
+    <div id="full-body">
+        
+        <div>
+            <marquee scrollamount="10" direction="left">
+                <img src="images/elect.jpg" alt=""  height="300">
+                <img src="images/today-electronics-offers.jpg" alt="" height="300">
+            </marquee>
+            
+        </div>
+        <div class="products">
+            <h1 class="text" style="color:aliceblue ;margin-left: 40% ;margin-top:10px;margin-bottom: 10px">Featured Products</h1>
+            <div class="card" style="margin-left: 150px;">
+                    <div  style="height: 100px;">
+                        <center>
+                            <img src="images/airpods.jpg" height="180" width="150" alt="">
+                        </center>
+                    </div>
+                    <div  style="line-height: 40px;">
+                            
+                    </div>
+                    <div class="child" style="height: 100px; margin-left: 20%; align-items: center;"> Apple Airpods<br> <p style="margin-left: 30px;">$11</p><br>
+                        <button class="btn1"  style="margin-left: 15px;" >Buy Now</button></div>
+            </div>
+            <div class="card" >
+                <div  style="height: 100px;">
+                    <center>
+                        <img src="images/phone.png" height="170" width="160" alt="">
+                    </center>
+                </div>
+                <div  style="line-height: 40px;">
+                    
+                </div>
+                <div class="child" style="height: 100px; margin-left: 18%; align-items: center;"> One Plus Nord<br> <p style="margin-left: 38px;">$14</p><br>
+                    <button class="btn1"  style="margin-left: 20px;">Buy Now</button></div>
+        </div>
+        <div class="card" >
+            <div  style="height: 100px;">
+                <center>
+                    <img src="images/laptop.png" height="180" width="150" alt="">
+                </center>
+            </div>
+            <div  style="line-height: 40px;">
+                
+            </div>
+            
+            <div class="child" style="height: 100px; margin-left: 25%; align-items: center;"> Dell Laptop<br> <p style="margin-left: 24px;">$15</p><br>
+                <button class="btn1"  style="margin-left: 5px;">Buy Now</button></div>
+    </div>
+    <div class="card" >
+        <div  style="height: 100px;">
+            <center>
+                <img src="images/washing machine.jpg" height="180" width="150" alt="">
+            </center>
+        </div>
+        <div  style="line-height: 40px;">
+           
+        </div>
+        <div class="child" style="height: 50px; margin-left: 5%; align-items: center;">IFB Washing Machine<br> <p style="margin-left: 60px;">$13</p><br>
+            <button class="btn1"  style="margin-left: 40px;">Buy Now</button></div>
+</div>
+<div class="card" >
+    <div  style="height: 100px;">
+        <center>
+            <img src="images/watch.png" height="170" width="150" alt="">
+        </center>
+    </div>
+    <div  style="line-height: 40px;">
+        
+    </div>
+    <div class="child" style="height: 100px; margin-left: 10%; align-items: center;">Daniel Klein Watch<br> <p style="margin-left: 53px;">$10</p><br>
+        <button class="btn1"  style="margin-left: 30px;">Buy Now</button>
+   </p></div>
+</div>
+           <div>
+            <div class="products">
+                <h1 class="text" style="color:aliceblue ;margin-left: 38% ;margin-top:20px;margin-bottom: 10px">Best Offers UPTO 30%OFF</h1>
+               
+                <div class="card" style="margin-left: 150px;">
+                        <div 
+                         style="height: 100px;">
+                            <center>
+                                <img src="images/galaxy.png" height="170" width="150" alt="">
+                            </center>
+                        </div>
+                        <div  style="line-height: 40px;">
+                            
+                        </div>
+                        <div class="child" style="height: 100px; margin-left: 12%; align-items: center;"> Samsung Galaxy<br> <p style="margin-left: 46px;">$14</p><br>
+                            <button class="btn1"  style="margin-left: 27px;">Buy Now</button></div>
+                </div>
+                <div class="card" >
+                    <div  style="height: 100px;">
+                        <center>
+                            <img src="images/LG.png" height="170" width="170" alt="">
+                        </center>
+                    </div>
+                    <div style="line-height: 40px;">
+                        
+                        
+                    </div>
+                    <div class="child" style="height: 100px; margin-left: 6%; align-items: center;">LG Washing Machine<br> <p style="margin-left: 58px;">$12</p><br>
+                        <button class="btn1"  style="margin-left: 40px;">Buy Now</button></div>
+            </div>
+            <div class="card" >
+                <div 
+                 style="height: 100px;">
+                    <center>
+                        <img src="images/boat.png" height="180" width="150" alt="">
+                    </center>
+                </div>
+                <div  style="line-height: 40px;">
+                   
+                </div>
+                <div class="child" style="height: 100px; margin-left: 10%; align-items: center;">Boat Airdopes 131<br> <p style="margin-left: 50px;">$8</p><br>
+                    <button class="btn1"  style="margin-left: 30px;">Buy Now</button></div>
+        </div>
+        <div class="card" >
+            <div  style="height: 100px;">
+                <center>
+                    <img src="images/laptop1.png" height="165" width="150" alt="">
+                </center>
+            </div>
+            <div  style="line-height: 40px;">
+                
+            </div>
+            <div class="child" style="height: 100px; margin-left: 10%; align-items: center;">Apple Macbook-Air<br> <p style="margin-left: 50px;">$20</p><br>
+                <button class="btn1"  style="margin-left: 30px;">Buy Now</button></div>
+    </div>
+    <div class="card" style="align-items:center;" >
+        <div  style="height: 100px;"> 
+            <center>
+                <img src="images/watch2.png" height="160" width="100" alt="">
+            </center>
+        </div>
+        <div class="child" style="height: 100px; margin-left: 24%; align-items: center;"> Fossil watch<br> <p style="margin-left: 30px;">$10</p><br>
+            <button class="btn1"  style="margin-left: 10px;">Buy Now</button></div>
+        
+    </div>
+    
+           </div>
+        </div>
+        <footer> 
+            <p> 2022 Copyright:<br>
+              Phonix.com<br>
+           About Disclaimer Privacy Policy</p>
+          </footer>
+       
+       
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Sign Up | By Code Info</title>
+    <link rel="stylesheet" href="sign.css" >
+    
+  </head>
+  <body>
+    
+    <div class="signup-box">
+      <h1 id="demo">Sign Up</h1>
+      <!-- <button type="button" onclick="document.getElementById('demo').style.fontSize='50px'">Click Me!</button> -->
+      <h4>It's free and only takes a minute</h4>
+      <form>
+        <label>First Name</label>
+        <input type="text" placeholder="First name" >
+        <label>Last Name</label>
+        <input type="text" placeholder="Last name" >
+        <label>Email</label>
+        <input type="email" placeholder="email" >
+        <label>Password</label>
+        <input type="password" placeholder="password" >
+        <label>Confirm Password</label>
+        <input type="password" placeholder="Confirm password" >
+        <input type="button" value="Submit" onclick="myfun();">
+      </form>
+      <p>
+        By clicking the Sign Up button,you agree to our <br />
+        <a href="#">Terms and Condition</a> and <a href="#">Policy Privacy</a>
+      </p>
+    </div>
+    <p class="para-2">
+      Already have an account? <a href="login.html">Login here</a>
+    </p>
+
+
+    <script>
+        function myfun(){
+          alert('Account Successfully Created!');
+        }
+    </script>
+
+  </body>
+</html>
